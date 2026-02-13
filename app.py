@@ -90,11 +90,11 @@ st.sidebar.subheader("🤖 Model Selection")
 selected_model = st.sidebar.selectbox("Choose ML Model", list(models.keys()))
 
 model_accuracies = {
-    "KNN": 69.32,
+    "KNN": 69.26,
     "Naive Bayes": 70.78,
     "Logistic Regression": 72.74,
     "SVM": 73.26,
-    "Random Forest": 70.78,
+    "Random Forest": 73.16,
     "XGBoost": 73.01
 }
 st.sidebar.info(f"📊 {selected_model} Accuracy: {model_accuracies[selected_model]}%")

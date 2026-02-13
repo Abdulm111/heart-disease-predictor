@@ -49,8 +49,8 @@ This project uses **6 different ML models** to predict whether a patient is at r
 | XGBoost | 73.01% |
 | Logistic Regression | 72.74% |
 | Naive Bayes | 70.78% |
-| Random Forest | 70.78% |
-| KNN | 69.32% |
+| Random Forest | 73.16,% |
+| KNN | 69.26% |
 
 ---
 
