@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Large Data Files
+data/cardio_train.csv
+data/cardio_cleaned.csv
+data/preprocessed_data.pkl
+models/random_forest_model.pkl
+models/knn_model.pkl
