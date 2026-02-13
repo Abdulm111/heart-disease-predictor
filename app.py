@@ -32,9 +32,9 @@ def load_models():
 
 @st.cache_resource
 def load_scaler():
-    with open("data/preprocessed_data.pkl", "rb") as f:
-        data = pickle.load(f)
-    return data["scaler"]
+    with open("models/scaler.pkl", "rb") as f:
+        scaler = pickle.load(f)
+    return scaler
 
 models = load_models()
 scaler = load_scaler()
